@@ -70,7 +70,7 @@ public class HelloWorld {
     String m = "Dec"; // (1)
     String month = "December"; // (2)
 
-    System.out.println("We are in the month of" + m + "also named" + month);
+    System.out.println("We are in the month of " + m + " also named" + month);
 
     /*
      * This is a dumb example of what im trying to explain. Here one variable is
@@ -111,7 +111,7 @@ public class HelloWorld {
      * 4,294,967,296 numbers to choose from. It is worth 4 bytes of storage.
      */
 
-    long g = 1700000000;
+    long g = 1700000000l;
     System.out.println(g);
 
     /*
@@ -175,13 +175,73 @@ public class HelloWorld {
      * aslo be saved. This example presents automatic casting
      */
 
-    long q = 47234587;
+    long q = 472345874;
     int r = (int) q;
     System.out.println(r);
 
     /*
-    * This is an example
+     * This is an example that has a manual casting syntax. Im here converting long
+     * to int. So now this has the same principles as the one mentionned beforhand.
+     * Note that the only difference is how you do it, the result are the same.
+     */
+
+    // Operators
+
+    /*
+    * Contents : 
+    Addition Operator, Substraction Operator, 
     */
+
+    int s = 100 + 400;
+    int t = s + 400;
+    int u = t + s;
+    System.out.println(u);
+
+    /*
+     * Our first operator is the addition operator, used to add two or more values
+     * described with the symbol '+'. As you seen earlier, it can aslo combine
+     * strings with other variables together.
+     */
+
+     int v = 762343; 
+     int w = 765345 - v; 
+     int x = v - w;
+     System.out.println(x); 
+
+     /*
+     * Our second operator is the substraction operator. It can be used to substract 
+     * two values. This also works with variables. It is defined with the "-" symbol.
+     */
+
+     int y = 23874; 
+     int z = y * 23984; 
+     int aa = y * z; 
+     System.out.println(aa); 
+
+     /*
+     * The thrid operator is the multiplication operator, have a rôle to multiply two 
+     * values. It is expressed using the symbol "*". It also works with other numbers. 
+     */
+
+     int ab = 29384; 
+     int ac = 23984/ab; 
+     int ad = ab/ac; 
+     System.out.println(ad);
+
+     /*
+     * The forth operator is the division operator, it is used to divide two or more 
+     * numbers. It is expressed with the "/" symbol. Works with variables (numbers).
+     */
+
+     int ae = 6;
+     int af = 7;
+     System.out.println(af % ae); 
+
+     /*
+     * Ok, I know that the last variables seemed like first grade math but this is simple
+     * as well. It is not a pourcentage, but more of a remainder. So its like the division 
+     * operator but results into the division remainder. Call it with the symbol '%'.
+     * For example, the following code will result  1
+     */
   };
-};
 };
