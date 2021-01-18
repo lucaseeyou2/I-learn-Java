@@ -243,5 +243,42 @@ public class HelloWorld {
      * operator but results into the division remainder. Call it with the symbol '%'.
      * For example, the following code will result  1
      */
+    
+        int ag = 8;
+    System.out.println(ag++);
+
+    /*
+     * This is the incremental operator. It simply adds the value 1 to the specified
+     * variable or number. It may seem useless but has a usage in different types of
+     * loops. It is declared with the "++" symbol (combined).
+     */
+
+     int ah = 8; 
+     System.out.println(ah--);
+
+     /*
+     * This decremental operator is expressed with the "--" operator. Like the
+     * incremental operator, it substracts a value of 1 to a variable or a number. 
+     * It also can be used on loops. 
+     */
+
+     // ASSIGNEMENT OPERATORS 
+
+     int ai = 9;
+     System.out.println(ai); 
+
+     /*
+     * Here what have I done ? Well I have assigned a value to a variable. The variable
+     *  "ai" has now the value of 9. You've seen me do that before but maybe didn't
+     * realise it. 
+     */
+
+     ai +=8; 
+     System.out.println(ai);
+
+     /*
+     * Here I have added the value 8 to my pre-existing value of ai. This creates
+     * something like ai = ai + 8, for this example. Use the symbol "+=" to use this.
+     */
   };
 };
