@@ -162,7 +162,7 @@ public class HelloWorld {
      * 2 bytes. Numbers are also accepted.
      */
 
-    // Casting
+    // CASTING
 
     short n = 2;
     double p = n;
@@ -185,12 +185,11 @@ public class HelloWorld {
      * Note that the only difference is how you do it, the result are the same.
      */
 
-    // Operators
+    // OPERATORS
 
     /*
-    * Contents : 
-    Addition Operator, Substraction Operator, 
-    */
+     * Contents : Addition Operator, Substraction Operator,
+     */
 
     int s = 100 + 400;
     int t = s + 400;
@@ -203,48 +202,50 @@ public class HelloWorld {
      * strings with other variables together.
      */
 
-     int v = 762343; 
-     int w = 765345 - v; 
-     int x = v - w;
-     System.out.println(x); 
+    int v = 762343;
+    int w = 765345 - v;
+    int x = v - w;
+    System.out.println(x);
 
-     /*
-     * Our second operator is the substraction operator. It can be used to substract 
-     * two values. This also works with variables. It is defined with the "-" symbol.
+    /*
+     * Our second operator is the substraction operator. It can be used to substract
+     * two values. This also works with variables. It is defined with the "-"
+     * symbol.
      */
 
-     int y = 23874; 
-     int z = y * 23984; 
-     int aa = y * z; 
-     System.out.println(aa); 
+    int y = 23874;
+    int z = y * 23984;
+    int aa = y * z;
+    System.out.println(aa);
 
-     /*
-     * The thrid operator is the multiplication operator, have a rôle to multiply two 
-     * values. It is expressed using the symbol "*". It also works with other numbers. 
+    /*
+     * The thrid operator is the multiplication operator, have a rôle to multiply
+     * two values. It is expressed using the symbol "*". It also works with other
+     * numbers.
      */
 
-     int ab = 29384; 
-     int ac = 23984/ab; 
-     int ad = ab/ac; 
-     System.out.println(ad);
+    int ab = 29384;
+    int ac = 2398423 / ab;
+    int ad = ab / ac;
+    System.out.println(ad);
 
-     /*
-     * The forth operator is the division operator, it is used to divide two or more 
+    /*
+     * The forth operator is the division operator, it is used to divide two or more
      * numbers. It is expressed with the "/" symbol. Works with variables (numbers).
      */
 
-     int ae = 6;
-     int af = 7;
-     System.out.println(af % ae); 
+    int ae = 6;
+    int af = 7;
+    System.out.println(af % ae);
 
-     /*
-     * Ok, I know that the last variables seemed like first grade math but this is simple
-     * as well. It is not a pourcentage, but more of a remainder. So its like the division 
-     * operator but results into the division remainder. Call it with the symbol '%'.
-     * For example, the following code will result  1
+    /*
+     * Ok, I know that the last variables seemed like first grade math but this is
+     * simple as well. It is not a pourcentage, but more of a remainder. So its like
+     * the division operator but results into the division remainder. Call it with
+     * the symbol '%'. For example, the following code will result 1.
      */
-    
-        int ag = 8;
+
+    int ag = 8;
     System.out.println(ag++);
 
     /*
@@ -279,6 +280,77 @@ public class HelloWorld {
      /*
      * Here I have added the value 8 to my pre-existing value of ai. This creates
      * something like ai = ai + 8, for this example. Use the symbol "+=" to use this.
+     * The value returned from this is 17 beacause ai = 9 and 9 + 8 = 17
+     */
+
+     int aj = 9;
+     aj -=3;
+     System.out.println(aj);
+     
+     /*
+     * The following is made to substract a value from a variable, notable any number 
+     * types. You can use this to reassign the value of a certain varible then, 
+     * substracting a numeral expression. Expressed with the "-=" symbol. 
+     */
+
+     int ak = 8;
+     ak *= 4;
+     System.out.println(ak);
+
+     /*
+     * The following seems like the last assignement operator, and it is. This operator
+     * multiplies and re-assignes the value of a predefined variable. For example, this
+     * example will be 8 and then 8 * 4, thus giving 24. Expressed with the "*=" symbol.
+     */
+
+     int al  = 7; 
+     al /= 6; 
+     System.out.println(al);
+
+     /*
+     * This operator is used to reassign the value of a predefined variable and dividing 
+     * it by a precised number. For example this example follows steps like this : al =7
+     * then, 7/6, thus giving 1.666666... It is expressed with the "/=" symbol. 
+     */
+
+     int am = 6; 
+     am %= 2; 
+     System.out.println(am);
+
+     /*
+     * Ok I agree with you I have no idea what this does when I took a glance at it, but 
+     * do you remember that modulus operator well its the same idea as the previously 
+     * seen operators. Just re-assigning and modifing a value. This devides the two terms
+     * and then returns a remainder value. It's expressed with the "%=" symbol. 
+     */
+
+     int an = 5;
+     an &=7;
+     System.out.println(an); 
+
+     /*
+     * After some digging, this is named a bitwise AND operator. This is an operator used in
+     * binary see this wikipedia page https://en.wikipedia.org/wiki/Bitwise_operation for
+     * more information. For example this will result 5. Expressed with "&=" symbol. 
+     */
+
+     int ao = 4; 
+     ao |= 5; 
+     System.out.println(ao); 
+
+     /*
+     * This opertarator needed also a little reasearch, so I checked out IBM for this 
+     * part (https://www.ibm.com/support/knowledgecenter/en/ssw_ibm_i_73/rzarg/bitiore.htm). 
+     * It is basicly the same aspect as the "+=" operator but the compiler needs to 
+     * evaluate the content as binary. Use the "|=" symbol to represent this.
+     */
+
+     int ap = 3; 
+     ap ^= 4;
+     System.out.println(ap);
+
+     /*
+     * 
      */
   };
 };
